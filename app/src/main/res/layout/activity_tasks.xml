@@ -109,6 +109,14 @@
                 android:checkable="true"
                 android:text="@string/deadline"
                 app:chipBackgroundColor="?attr/colorSecondary" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/sort_muti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:text="Muti"
+                app:chipBackgroundColor="?attr/colorSecondary" />
         </com.google.android.material.chip.ChipGroup>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
